@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+<!--    <meta name="viewport" content="width=device.width, initial-scale=1.0"> -->
     <title>Not the real Google-Homepage</title>
     <meta name="description" content="Google Homepage made by Jan Morten Rong for the Odin Project">
 </head>
 
 <style>
+    .center-object {
+       margin;0 auto; text-align: center;
+    }
+    #google-logo {
+        padding-top: 109px;
+    }
 
-    
 </style>
 
 <body>
@@ -24,21 +29,21 @@
     </header>
 
     <main>
-        <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <form action="" method="get"> 
-                <div>
-                    <label for="name">Search </label>
-                    <input type="text" name="search" id="search">
-                </div>
-                <div>
-                <input type="submit" value="Google Search">
-                </div>    
-                <div>
-                <input type="submit" value="I'm Feeling Lucky">
-                </div>    
-            </form>
+        <div class="center-object">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="google-logo">
         </div>
+        <form class="center-object" action="" method="get"> 
+            <div>
+                <label for="name">Søk</label>
+                <input type="text" name="search" id="search">
+            </div>
+            <div>
+            <input type="submit" value="Google Search">
+            </div>    
+            <div>
+            <input type="submit" value="I'm Feeling Lucky">
+            </div>    
+        </form>
     </main>
 
     <footer>
